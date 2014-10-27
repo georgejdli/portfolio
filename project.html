@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="title-logo" src="images/city-q-c-100-100-9.jpg" alt="logo">
+    </div>
+        <div class="col-md-6 text-right text-uppercase">
+            <h1 class="title-super text-thin">George Li</h1>
+            <h4>Front-end ninja</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive" src="images/city-q-c-1000-350-10.jpg" alt="chinatown">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img class="img-responsive" src="images/animals-q-c-300-200-3.jpg" alt="tiger" data-toggle="modal" data-target="#project1">
+            <h3 class="text-uppercase content-name-large">Portfolio</h3>
+            <p>https://github.com/udacity/portfolio</p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="images/animals-q-c-300-200-4.jpg" alt="giraffe" data-toggle="modal" data-target="#project2">
+            <h3 class="text-uppercase content-name-large">Sunflower</h3>
+            <p>https://github.com/udacity/sunflower</p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="images/animals-q-c-300-200-7.jpg" alt="cat" data-toggle="modal" data-target="#project3">
+            <h3 class="text-uppercase content-name-large">Bokeh</h3>
+            <p>https://github.com/udacity/Bokeh</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="project1Label">Portfolio</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/animals-q-c-300-200-3.jpg" alt="tiger">
+                This was my first project in this class. I learned a lot about HTML and CSS. This portfolio will showcase my skills to employers. I will add links to projects as I complete them.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="project2Label">Project 2</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/animals-q-c-300-200-4.jpg" alt="giraffe">
+                Second project. Coming soon!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="project3Label">Project 3</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/animals-q-c-300-200-7.jpg" alt="cat">
+                Third project. Coming soon after project 2!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

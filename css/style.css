@@ -1,0 +1,36 @@
+body {
+    font: 400 medium 'Source Sans Pro', sans-serif;
+    color: #666756;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 200;
+}
+
+/* header */
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+/*end header */
+
+/*featured work, may add additional style rules in the future */
+.content-name-large {
+    font-size: 36px;
+}
+/*end featured work */
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: 1em 0 2em 0;
+    padding: 0;
+}
